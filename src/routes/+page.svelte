@@ -87,7 +87,7 @@
                     <CalendarWeekSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
-            <Button href="https://easychair.org/conferences/submission_new?a=33820341" on:click={handleAnchorClick} color="alternative">Submit<ArrowRightOutline class="ms-2 w-5 h-5" /></Button>
+            <Button href="https://easychair.org/conferences/submission_new?a=33820341" color="alternative">Submit<ArrowRightOutline class="ms-2 w-5 h-5" /></Button>
         </TimelineItem>
         <TimelineItem title="Notification of Authors" date="March 4, 2025">
             <svelte:fragment slot="icon">
