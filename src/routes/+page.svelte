@@ -1,5 +1,5 @@
 <script>
-    import { Card, Heading, P, Hr, Timeline, TimelineItem, Button, List, Li } from 'flowbite-svelte';
+    import { Card, Heading, P, Hr, Timeline, TimelineItem, Button, List, Li, Span, A } from 'flowbite-svelte';
     import { ArrowRightOutline, CalendarWeekSolid, ClockSolid } from 'flowbite-svelte-icons';
     import rhai from '$lib/assets/img/people/rhai.png';
     import kpark from '$lib/assets/img/people/kpark.jpg';
@@ -67,9 +67,9 @@
         <Li>Fuzzy logic for quantum machine learning</Li>
     </List>
 
-    <Heading tag="h5" class="mb-2">Data Engineering for Quantum Error Correction</Heading>
+    <Heading tag="h5" class="mb-2">Data Engineering for Quantum Computing</Heading>
     <Hr classHr="my-8" />
-    <P class="mb-12">Data engineering methods and techniques to improve on quantum error correction</P>
+    <P class="mb-12">Data engineering methods and techniques to improve quantum computing, e.g. quantum error correction</P>
 
     <Heading tag="h5" class="mb-2">Domain specific Applications</Heading>
     <Hr classHr="my-8" />
@@ -87,7 +87,7 @@
                     <CalendarWeekSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
-            <Button href="https://easychair.org/conferences/submission_new?a=33820341" color="alternative">Submit<ArrowRightOutline class="ms-2 w-5 h-5" /></Button>
+            <Button href="https://easychair.org/my/conference?conf=qdml2025" color="alternative">Submit<ArrowRightOutline class="ms-2 w-5 h-5" /></Button>
         </TimelineItem>
         <TimelineItem title="Notification of Authors" date="March 4, 2025">
             <svelte:fragment slot="icon">
@@ -115,13 +115,36 @@
 
     <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Submission Guidelines</Heading>
     <Hr classHr="my-8" />
-    <P>
+    <P class='mt-8'>
         The workshop will accept both regular papers and short papers (work in progress, vision/outrageous ideas).
         The page limit for regular papers is 6 pages, and for short papers is 4 pages with unlimited references. 
         The papers will be uploaded as PDF files to the review system. Each paper will be reviewed by at least three reviewers from the program committee (PC).
         We will apply the same principles for handling conflicts of interest with PC members or workshop chairs at the ICDE conference.
-        We plan to invite a diverse, world-class program committee of about 10-15 experts in the domains of data management and engineering, data science, quantum information and quantum computing, and quantum machine learning. 
     </P>
+    <Hr classHr="my-8" />
+    <P>
+        We welcome submissions in the following categories:
+    </P>
+    <List tag="ul" class="space-y-4 text-gray-900 mb-8 mt-8 dark:text-gray-200">
+        <Li><Span bold>Regular Papers:</Span> up to 6 pages</Li>
+        <Li><Span bold>Short Papers</Span> (e.g. work in progress, vision papers, or outrageous ideas): up to 4 pages</Li>
+        <Li><Span bold>Abstracts:</Span> 1 page. Abstracts may summarize previously published work. Please explicitly cite your previous work.</Li>
+    </List>
+    <P>
+        For all submission types, references are unlimited, but appendices are not allowed.
+    </P>
+    <Hr classHr="my-8" />
+    <Heading tag="h5" class="mb-2">Submission Process</Heading>
+    <List tag="ul" class="space-y-4 text-gray-900 mb-8 mt-8 dark:text-gray-200">
+        <Li>All papers must be submitted as <Span bold>PDF files</Span> via <A class="font-medium hover:underline" href='https://easychair.org/my/conference?conf=qdml2025'>EasyChair</A></Li>
+        <Li>Papers should adhere to the <Span bold>IEEE formatting guidelines</Span> <A class="font-medium hover:underline" href="https://www.ieee.org/conferences/publishing/templates.html">(template available)</A></Li>
+    </List>
+    <Hr classHr="my-8" />
+    <Heading tag="h5" class="mb-2">Review Process</Heading>
+    <List tag="ul" class="space-y-4 text-gray-900 mb-8 mt-8 dark:text-gray-200">
+        <Li>Submissions will be reviewed in a <Span bold>single-blind</Span> manner (reviewers know the identity of authors, but not vice versa).</Li>
+        <Li>We will follow the same conflict-of-interest policies as the ICDE conference to ensure fair evaluation.</Li>
+    </List>
 </div>
 
 <div id="program" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
