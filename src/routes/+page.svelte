@@ -81,7 +81,7 @@
     <Hr classHr="my-8" />
 
     <Timeline order="vertical">
-        <TimelineItem title="Paper Submission Deadline" date="February 4, 2025">
+        <TimelineItem title="Paper Submission Deadline" date="February 25, 2025">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <CalendarWeekSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
@@ -89,7 +89,7 @@
             </svelte:fragment>
             <Button href="https://easychair.org/my/conference?conf=qdml2025" color="alternative">Submit<ArrowRightOutline class="ms-2 w-5 h-5" /></Button>
         </TimelineItem>
-        <TimelineItem title="Notification of Authors" date="March 4, 2025">
+        <TimelineItem title="Notification of Authors" date="March 14, 2025">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <CalendarWeekSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
