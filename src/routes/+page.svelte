@@ -151,7 +151,7 @@
 <div id="sponsors" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
     <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Sponsors</Heading>
     <Hr classHr="my-12" />
-    <div class="max-w-4xl">
+    <div class="max-w-4xl items-center">
         <Carousel {images} duration="3000" />
     </div>  
 </div>
