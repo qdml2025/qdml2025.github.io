@@ -1,10 +1,11 @@
 <script>
-    import { Card, Heading, P, Hr, Timeline, TimelineItem, Button, List, Li, Span, A } from 'flowbite-svelte';
+    import { Card, Carousel, Heading, P, Hr, Timeline, TimelineItem, Button, List, Li, Span, A } from 'flowbite-svelte';
     import { ArrowRightOutline, CalendarWeekSolid, ClockSolid } from 'flowbite-svelte-icons';
     import rhai from '$lib/assets/img/people/rhai.png';
     import kpark from '$lib/assets/img/people/kpark.jpg';
     import tlittau from '$lib/assets/img/people/tlittau.png';
     import home_bg from '$lib/assets/img/home_bg.jpg';
+    import images from '$lib/sponsors.json';
 
     /**
      * @param {{ preventDefault: () => void; currentTarget: any; }} event
@@ -145,6 +146,56 @@
         <Li>Submissions will be reviewed in a <Span bold>single-blind</Span> manner (reviewers know the identity of authors, but not vice versa).</Li>
         <Li>We will follow the same conflict-of-interest policies as the ICDE conference to ensure fair evaluation.</Li>
     </List>
+</div>
+
+<div id="sponsors" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
+    <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Sponsors</Heading>
+    <Hr classHr="my-12" />
+    <div class="max-w-4xl">
+        <Carousel {images} duration="3000" />
+    </div>  
+</div>
+
+<div id="commitee" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
+    <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Commitee</Heading>
+    <Hr classHr="my-8" />
+    <Heading tag="h5" class="mb-4">Organising Committee</Heading>
+    <Hr classHr="my-8" />
+    <div class="grid grid-cols-2 mb-16">
+        <Card img={rhai}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Rihan Hai</h3>
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Organiser</h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Assistant Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ University of Technology Delft, Netherlands</p>
+            <Button href="https://rihanhai.com">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={kpark}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kwanghyun Park</h3>
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Organiser</h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Assistant Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ Yonsei University, South Korea</p>
+            <Button href="https://cs.yonsei.ac.kr:59290/bbs/board.php?bo_table=eng2_1_a&wr_id=37">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+    </div>
+
+    <Heading tag="h5" class="mb-4">Workshop Chairs</Heading>
+    <Hr classHr="my-8" />
+    <div class="grid grid-rows-1 grid-cols-2 place-content-center divide-y">
+        <Card img={tlittau}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tim Littau</h3>
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Publicity Chair</h5>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">PhD student</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ University of Technology Delft, Netherlands</p>
+            <Button href="https://tmlittau.github.io/tmlittau-portfolio">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+    </div>
 </div>
 
 <div id="program" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
