@@ -9,7 +9,7 @@
     export const sponsors = [
         {
             alt: 'SDT',
-            src: '$lib/assets/img/sponsors/(SDT)logo_purple.ai',
+            src: '/img/sponsors/(SDT)logo_purple.ai',
             title: 'SDTLogo'
         }
     ]
