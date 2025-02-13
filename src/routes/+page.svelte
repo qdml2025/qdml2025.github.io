@@ -5,7 +5,14 @@
     import kpark from '$lib/assets/img/people/kpark.jpg';
     import tlittau from '$lib/assets/img/people/tlittau.png';
     import home_bg from '$lib/assets/img/home_bg.jpg';
-    import images from '$lib/sponsors.json';
+
+    const sponsors = [
+        {
+            alt: 'SDT',
+            src: '$lib/assets/img/sponsors/(SDT)logo_purple.ai',
+            title: 'SDTLogo'
+        }
+    ]
 
     /**
      * @param {{ preventDefault: () => void; currentTarget: any; }} event
@@ -152,7 +159,7 @@
     <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Sponsors</Heading>
     <Hr classHr="my-12" />
     <div class="max-w-4xl items-center">
-        <Carousel {images} duration="3000" />
+        <Carousel {sponsors} duration="3000" />
     </div>  
 </div>
 
