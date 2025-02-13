@@ -158,9 +158,12 @@
 <div id="sponsors" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
     <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Sponsors</Heading>
     <Hr classHr="my-12" />
-    <div class="max-w-4xl items-center">
-        <Carousel images={sponsors} duration="3000" />
-    </div>  
+    <div class="w-1/2 p-8 mx-[25%] rounded-lg dark:bg-white">
+        <Carousel images={sponsors} duration="3000" let:Indicators let:Controls> 
+            <Indicators class="-my-16 border border-white rounded-md p-2 bg-black bg-opacity-50" />
+            <!-- <Controls /> -->
+        </Carousel>
+    </div>   
 </div>
 
 <div id="commitee" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
