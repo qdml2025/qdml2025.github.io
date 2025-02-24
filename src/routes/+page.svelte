@@ -89,12 +89,15 @@
     <Hr classHr="my-8" />
 
     <Timeline order="vertical">
-        <TimelineItem title="Paper Submission Deadline" date="February 25, 2025">
+        <TimelineItem title="Paper Submission Deadline">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <CalendarWeekSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
+            <Span class="line-through block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 4, 2025</Span>
+            <Span class="line-through block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 25, 2025</Span>
+            <Span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 28, 2025</Span>
             <Button href="https://easychair.org/my/conference?conf=qdml2025" color="alternative">Submit<ArrowRightOutline class="ms-2 w-5 h-5" /></Button>
         </TimelineItem>
         <TimelineItem title="Notification of Authors" date="March 14, 2025">
@@ -136,7 +139,7 @@
     <List tag="ul" class="space-y-4 text-gray-900 mb-8 mt-8 dark:text-gray-200">
         <Li><Span bold>Regular Papers:</Span> up to 6 pages</Li>
         <Li><Span bold>Short Papers</Span> (e.g. work in progress, vision papers, or outrageous ideas): up to 4 pages</Li>
-        <Li><Span bold>Abstracts:</Span> 1 page. Abstracts may summarize previously published work. Please explicitly cite your previous work.</Li>
+        <Li><Span bold>Abstracts:</Span> 1 page. Abstracts may summarize previously published or early work. Please explicitly cite your previous work.</Li>
     </List>
     <P>
         For all submission types, references are unlimited, but appendices are not allowed.
