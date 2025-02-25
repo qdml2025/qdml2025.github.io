@@ -97,7 +97,7 @@
             </svelte:fragment>
             <Span class="line-through block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 4, 2025</Span>
             <Span class="line-through block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 25, 2025</Span>
-            <Span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 28, 2025</Span>
+            <Span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 1, 2025</Span>
             <Button href="https://easychair.org/my/conference?conf=qdml2025" color="alternative">Submit<ArrowRightOutline class="ms-2 w-5 h-5" /></Button>
         </TimelineItem>
         <TimelineItem title="Notification of Authors" date="March 14, 2025">
