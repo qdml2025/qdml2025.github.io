@@ -8,7 +8,7 @@
 
     export const sponsors = [
         {
-            alt: 'SDT',
+            alt: 'https://sdt.inc/en/',
             src: '/img/sponsors/SDTLogo.svg',
             title: 'SDTLogo'
         }
@@ -163,6 +163,9 @@
     <Hr classHr="my-12" />
     <div class="w-1/2 p-8 mx-[25%] rounded-lg dark:bg-white">
         <Carousel images={sponsors} duration="3000" let:Indicators let:Controls> 
+            <a slot="slide" href="{sponsors[index]?.alt}" target="_blank" let:Slide let:index>
+                <Slide image={sponsors[index]} />
+            </a>
             <Indicators class="-my-16 border border-white rounded-md p-2 bg-black bg-opacity-50" />
             <!-- <Controls /> -->
         </Carousel>
