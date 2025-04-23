@@ -4,6 +4,17 @@
     import rhai from '$lib/assets/img/people/rhai.png';
     import kpark from '$lib/assets/img/people/kpark.jpg';
     import tlittau from '$lib/assets/img/people/tlittau.png';
+    import tcoopmans from '$lib/assets/img/people/tcoopmans.jpeg';
+    import fgeerts from '$lib/assets/img/people/fgeerts.jpg';
+    import shung from '$lib/assets/img/people/shung.jpg';
+    import jlu from '$lib/assets/img/people/jlu.jpg';
+    import vuotila from '$lib/assets/img/people/vuotila.jpg';
+    import mschoenberger from '$lib/assets/img/people/mschoenberger.png';
+    import jkim from '$lib/assets/img/people/jkim.png';
+    import wmauerer from '$lib/assets/img/people/wmauerer.png';
+    import sgroppe from '$lib/assets/img/people/sgroppe.jpg';
+    import cpark from '$lib/assets/img/people/cpark.png';
+    import isabek from '$lib/assets/img/people/isabek.jpg';
     import home_bg from '$lib/assets/img/home_bg.jpg';
 
     export const sponsors = [
@@ -199,6 +210,109 @@
         </Card>
     </div>
 
+    <Heading tag="h5" class="mb-4">Programme Commitee</Heading>
+    <Hr classHr="my-8" />
+    <div class="grid grid-rows-4 grid-cols-3 place-content-center divide-y">
+        <Card img={tcoopmans}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tim Coopmans</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Assistant Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ University of Technology Delft, Netherlands</p>
+            <Button href="https://timcoopmans.com">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={fgeerts}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Floris Geerts</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ University of Antwerp, Belgium</p>
+            <Button href="https://fgeerts.github.io">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={sgroppe}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sven Groppe</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ University of Luebeck, Germany</p>
+            <Button href="https://www.ifis.uni-luebeck.de/~groppe/">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={shung}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Shih-Han Hung</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Assisstant Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ National Taiwan University, Taiwan</p>
+            <Button href="https://hungshihhan.github.io">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={jkim}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Joongheon Kim</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight"> Associate Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ Korea University, South Korea</p>
+            <Button href="https://sites.google.com/view/aimlab-kuee/members/joongheonkim">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={jlu}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Jiaheng Lu</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ University of Helsinki, Finland</p>
+            <Button href="https://www.cs.helsinki.fi/u/jilu/">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={wmauerer}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Wolfgang Mauerer</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ OTH Regensburg, Germany</p>
+            <Button href="https://www.lfdr.de/People/mauerer/">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={cpark}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Chae-Yeun Park</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Assistant Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ Yonsei University, South Korea</p>
+            <Button href="https://chaeyeunpark.me">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={isabek}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ibrahim Sabek</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Assistant Professor</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ University of Southern California, USA</p>
+            <Button href="https://viterbi.usc.edu/directory/faculty/Sabek/Ibrahim">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={mschoenberger}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Manuel Schoenberger</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">Doctoral Student</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ OTH Regensburg, Germany</p>
+            <Button href="https://www.lfdr.de/People/schoenberger/">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+
+        <Card img={vuotila}>
+            <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Valter Uotila</h3>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">PhD Student</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">@ University of Helsinki, Finland</p>
+            <Button href="https://valteruo.github.io">
+            Read more <ArrowRightOutline class="w-6 h-6 ms-2 text-white" />
+            </Button>
+        </Card>
+    </div>
+
     <Heading tag="h5" class="mb-4">Workshop Chairs</Heading>
     <Hr classHr="my-8" />
     <div class="grid grid-rows-1 grid-cols-2 place-content-center divide-y">
@@ -273,6 +387,12 @@
 <div id="papers" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
     <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Accepted Papers</Heading>
     <Hr classHr="my-8" />
-    <Heading tag="h5" class="mb-4" customSize="text-xl font-extrabold  md:text-2xl lg:text-3xl">TBD</Heading>
+    <List tag="ul" class="space-y-4 text-gray-900 mb-8 mt-8 dark:text-gray-200">
+        <Li><Span bold>Optimizing Join Orders via Constrained Quadratic Models (Abstract)</Span> Hanwen Liu, Pranshi Saxena, Federico Spedalieri and Ibrahim Sabek</Li>
+        <Li><Span bold>The Effect of Gate Selection in Overparameterized Quantum Circuits</Span> Jeihee Cho, Junyong Lee, Daniel Justice and Shiho Kim</Li>
+        <Li><Span bold>Native Gate-Aware QAOA Ansatz</Span> Hyungseok Kim, Enhyeok Jang, Youngmin Kim and Won Woo Ro</Li>
+        <Li><Span bold>Neural Quantum Embeddings with Multiple Control Variables</Span> Seungyeop Baik and Yo-Sub Han</Li>
+        <Li><Span bold>Data-centric Approach of Macroscopic Physical System with NISQ Quantum Computers</Span> Junyong Lee, Jeihee Cho, Hyeonseong Jung, Euimin Lee, Sangmin Lee, Shiho Kim and Yunah Choi</Li>
+    </List>
 
 </div>

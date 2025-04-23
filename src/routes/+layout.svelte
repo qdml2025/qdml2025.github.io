@@ -45,9 +45,9 @@
         <NavLi class="md:text-white" href="#aims" on:click={handleAnchorClick}>Aims & Scope</NavLi>
         <NavLi class="md:text-white" href="#submit" on:click={handleAnchorClick}>Submission</NavLi>
         <NavLi class="md:text-white" href="#sponsors" on:click={handleAnchorClick}>Sponsors</NavLi>
+        <NavLi class="md:text-white" href="#commitee" on:click={handleAnchorClick}>Organisation</NavLi>
         <NavLi class="md:text-white" href="#program" on:click={handleAnchorClick}>Program</NavLi>
         <NavLi class="md:text-white" href="#papers" on:click={handleAnchorClick}>Accepted Papers</NavLi>
-        <NavLi class="md:text-white" href="#committee" on:click={handleAnchorClick}>Organisation</NavLi>
         <NavLi class="md:text-white" href="/" on:click={() => (contactModal = true)}>Contact</NavLi>
     </NavUl>
     <DarkMode class="absolute right-12 top-2 lg:top-4" />
