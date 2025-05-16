@@ -238,7 +238,7 @@
                     <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
-            <P>Speaker: Shih-Han Hung</P>
+            <P></P>
         </TimelineItem>
         <TimelineItem title="Keynote 2" date="11:20 - 12:00">
             <svelte:fragment slot="icon">
@@ -246,7 +246,7 @@
                     <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
-            <P></P>
+            <P>Speaker: Shih-Han Hung</P>
         </TimelineItem>
         <TimelineItem title="Paper Presentation" date="12:00 - 12:15">
             <svelte:fragment slot="icon">
