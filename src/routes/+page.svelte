@@ -183,6 +183,165 @@
     </div>   
 </div>
 
+<div id="program" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
+    <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Program</Heading>
+    <Hr classHr="my-8" />
+
+    <Timeline order="vertical">
+        <TimelineItem title="Welcome Messages" date="9:00 - 9:05">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Speaker: Kwanghyun Park</P>
+        </TimelineItem>
+        <TimelineItem title="Keynote 1" date="9:05 - 10:05">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Speaker: Prof. Liu Ai-Qun</P>
+        </TimelineItem>
+        <TimelineItem title="Paper Presentation" date="10:05 - 10:20">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Neural Quantum Embeddings with Multiple Control Variables</P>
+            <P>Seungyeop Baik and Yo-Sub Han</P>
+        </TimelineItem>
+        <TimelineItem title="Paper Presentation" date="10:20 - 10:30">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Optimizing Join Orders via Constrained Quadratic Models (online)</P>
+            <P>Hanwen Liu, Pranshi Saxena, Federico Spedalieri and Ibrahim Sabek</P>
+        </TimelineItem>
+        <Hr classHr="my-4" />
+        <TimelineItem title="Coffee Break" date="10:30 - 11:00">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <HourglassSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P></P>
+        </TimelineItem>
+        <Hr classHr="my-4" />
+        <TimelineItem title="Industry Talk" date="11:00 - 11:20">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Speaker: Shih-Han Hung</P>
+        </TimelineItem>
+        <TimelineItem title="Keynote 2" date="11:20 - 12:00">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P></P>
+        </TimelineItem>
+        <TimelineItem title="Paper Presentation" date="12:00 - 12:15">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Data-centric Approach of Macroscopic Physical System with NISQ Quantum Computers</P>
+            <P>Junyong Lee, Jeihee Cho, Hyeonseong Jung, Euimin Lee, Sangmin Lee, Shiho Kim and Yunah Choi</P>
+        </TimelineItem>
+        <TimelineItem title="Invited Talk" date="12:15 - 12:30">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>The Effect of Gate Selection in Overparameterized Quantum Circuits</P>
+            <P>Jeihee Cho, Junyong Lee, Daniel Justice and Shiho Kim</P>
+        </TimelineItem>
+        <TimelineItem title="Invited Talk" date="12:30 - 12:45">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Native Gate-Aware QAOA Ansatz</P>
+            <P>Hyungseok Kim, Enhyeok Jang, Youngmin Kim and Won Woo Ro</P>
+        </TimelineItem>
+
+
+
+        <!-- <TimelineItem title="Expert Keynote Talks" date="">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Keynote by invited experts from industry and/or academia (45 minutes each)</P>
+        </TimelineItem>
+        <TimelineItem title="Technical Presentation Session 1" date="">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>First session of three technical presentations (15 - 25 minutes each)</P>
+        </TimelineItem>
+        <TimelineItem title="Technical Presentation Session 2" date="">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Second session of three technical presentations (15 - 25 minutes each)</P>
+        </TimelineItem>
+        <TimelineItem title="Technical Presentation Session 3" date="">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>Third session of three technical presentations (15 - 25 minutes each)</P>
+        </TimelineItem>
+        <TimelineItem title="Panel Discussion" date="">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+            <P>(one hour for the panel discussion)</P>
+        </TimelineItem>
+        <TimelineItem title="Socialising and Workshop Dinner" date="">
+            <svelte:fragment slot="icon">
+                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
+                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
+                </span>
+            </svelte:fragment>
+        </TimelineItem> -->
+    </Timeline> 
+
+</div>
+
+<div id="papers" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
+    <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Accepted Papers</Heading>
+    <Hr classHr="my-8" />
+    <List tag="ul" class="space-y-4 text-gray-900 mb-8 mt-8 dark:text-gray-200">
+        <Li><Span bold>Optimizing Join Orders via Constrained Quadratic Models (Abstract)</Span> Hanwen Liu, Pranshi Saxena, Federico Spedalieri and Ibrahim Sabek</Li>
+        <Li><Span bold>The Effect of Gate Selection in Overparameterized Quantum Circuits</Span> Jeihee Cho, Junyong Lee, Daniel Justice and Shiho Kim</Li>
+        <Li><Span bold>Native Gate-Aware QAOA Ansatz</Span> Hyungseok Kim, Enhyeok Jang, Youngmin Kim and Won Woo Ro</Li>
+        <Li><Span bold>Neural Quantum Embeddings with Multiple Control Variables</Span> Seungyeop Baik and Yo-Sub Han</Li>
+        <Li><Span bold>Data-centric Approach of Macroscopic Physical System with NISQ Quantum Computers</Span> Junyong Lee, Jeihee Cho, Hyeonseong Jung, Euimin Lee, Sangmin Lee, Shiho Kim and Yunah Choi</Li>
+    </List>
+
+</div>
+
 <div id="commitee" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
     <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Commitee</Heading>
     <Hr classHr="my-8" />
@@ -326,163 +485,4 @@
             </Button>
         </Card>
     </div>
-</div>
-
-<div id="program" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
-    <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Program</Heading>
-    <Hr classHr="my-8" />
-
-    <Timeline order="vertical">
-        <TimelineItem title="Welcome Messages" date="9:00 - 9:05">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>Speaker: Kwanghyun Park</P>
-        </TimelineItem>
-        <TimelineItem title="Keynote 1" date="9:05 - 10:05">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P></P>
-        </TimelineItem>
-        <TimelineItem title="Paper Presentation" date="10:05 - 10:20">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>Neural Quantum Embeddings with Multiple Control Variables</P>
-            <P>Seungyeop Baik and Yo-Sub Han</P>
-        </TimelineItem>
-        <TimelineItem title="Paper Presentation" date="10:20 - 10:30">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>Optimizing Join Orders via Constrained Quadratic Models (online)</P>
-            <P>Hanwen Liu, Pranshi Saxena, Federico Spedalieri and Ibrahim Sabek</P>
-        </TimelineItem>
-        <Hr classHr="my-4" />
-        <TimelineItem title="Coffee Break" date="10:30 - 11:00">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <HourglassSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P></P>
-        </TimelineItem>
-        <Hr classHr="my-4" />
-        <TimelineItem title="Industry Talk" date="11:00 - 11:20">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P></P>
-        </TimelineItem>
-        <TimelineItem title="Keynote 2" date="11:20 - 12:00">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P></P>
-        </TimelineItem>
-        <TimelineItem title="Paper Presentation" date="12:00 - 12:15">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>Data-centric Approach of Macroscopic Physical System with NISQ Quantum Computers</P>
-            <P>Junyong Lee, Jeihee Cho, Hyeonseong Jung, Euimin Lee, Sangmin Lee, Shiho Kim and Yunah Choi</P>
-        </TimelineItem>
-        <TimelineItem title="Invited Talk" date="12:15 - 12:30">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>The Effect of Gate Selection in Overparameterized Quantum Circuits</P>
-            <P>Jeihee Cho, Junyong Lee, Daniel Justice and Shiho Kim</P>
-        </TimelineItem>
-        <TimelineItem title="Invited Talk" date="12:30 - 12:45">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>Native Gate-Aware QAOA Ansatz</P>
-            <P>Hyungseok Kim, Enhyeok Jang, Youngmin Kim and Won Woo Ro</P>
-        </TimelineItem>
-
-
-
-        <!-- <TimelineItem title="Expert Keynote Talks" date="">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>Keynote by invited experts from industry and/or academia (45 minutes each)</P>
-        </TimelineItem>
-        <TimelineItem title="Technical Presentation Session 1" date="">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>First session of three technical presentations (15 - 25 minutes each)</P>
-        </TimelineItem>
-        <TimelineItem title="Technical Presentation Session 2" date="">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>Second session of three technical presentations (15 - 25 minutes each)</P>
-        </TimelineItem>
-        <TimelineItem title="Technical Presentation Session 3" date="">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>Third session of three technical presentations (15 - 25 minutes each)</P>
-        </TimelineItem>
-        <TimelineItem title="Panel Discussion" date="">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-            <P>(one hour for the panel discussion)</P>
-        </TimelineItem>
-        <TimelineItem title="Socialising and Workshop Dinner" date="">
-            <svelte:fragment slot="icon">
-                <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
-                    <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
-                </span>
-            </svelte:fragment>
-        </TimelineItem> -->
-    </Timeline> 
-
-</div>
-
-<div id="papers" class="m-8 p-12 border-solid border-2 border-gray-950 rounded-lg bg-white dark:bg-gray-800">
-    <Heading tag="h1" class="mb-4" customSize="text-center text-2xl font-extrabold  md:text-3xl lg:text-4xl">Accepted Papers</Heading>
-    <Hr classHr="my-8" />
-    <List tag="ul" class="space-y-4 text-gray-900 mb-8 mt-8 dark:text-gray-200">
-        <Li><Span bold>Optimizing Join Orders via Constrained Quadratic Models (Abstract)</Span> Hanwen Liu, Pranshi Saxena, Federico Spedalieri and Ibrahim Sabek</Li>
-        <Li><Span bold>The Effect of Gate Selection in Overparameterized Quantum Circuits</Span> Jeihee Cho, Junyong Lee, Daniel Justice and Shiho Kim</Li>
-        <Li><Span bold>Native Gate-Aware QAOA Ansatz</Span> Hyungseok Kim, Enhyeok Jang, Youngmin Kim and Won Woo Ro</Li>
-        <Li><Span bold>Neural Quantum Embeddings with Multiple Control Variables</Span> Seungyeop Baik and Yo-Sub Han</Li>
-        <Li><Span bold>Data-centric Approach of Macroscopic Physical System with NISQ Quantum Computers</Span> Junyong Lee, Jeihee Cho, Hyeonseong Jung, Euimin Lee, Sangmin Lee, Shiho Kim and Yunah Choi</Li>
-    </List>
-
 </div>
