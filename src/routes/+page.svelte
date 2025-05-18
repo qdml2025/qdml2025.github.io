@@ -196,7 +196,7 @@
             </svelte:fragment>
             <P>Speaker: Kwanghyun Park</P>
         </TimelineItem>
-        <TimelineItem title="Keynote 1" date="9:05 - 10:05">
+        <TimelineItem title="Keynote: Explore the Impact of Quantum Computing Chip on Data Science and AI" date="9:05 - 10:05">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
@@ -204,23 +204,22 @@
             </svelte:fragment>
             <P>Speaker: Prof. Liu Ai-Qun</P>
         </TimelineItem>
-        <TimelineItem title="Paper Presentation" date="10:05 - 10:20">
+        <TimelineItem title="Paper Presentation: Neural Quantum Embeddings with Multiple Control Variables" date="10:05 - 10:20">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
-            <P>Neural Quantum Embeddings with Multiple Control Variables</P>
-            <P>Seungyeop Baik and Yo-Sub Han</P>
+            <P>Authors: Seungyeop Baik and Yo-Sub Han</P>
         </TimelineItem>
-        <TimelineItem title="Paper Presentation" date="10:20 - 10:30">
+        <TimelineItem title="Paper Presentation: Optimizing Join Orders via Constrained Quadratic Models" date="10:20 - 10:30">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
-            <P>Optimizing Join Orders via Constrained Quadratic Models (online)</P>
-            <P>Hanwen Liu, Pranshi Saxena, Federico Spedalieri and Ibrahim Sabek</P>
+            <P>(online)</P>
+            <P>Authors: Hanwen Liu, Pranshi Saxena, Federico Spedalieri and Ibrahim Sabek</P>
         </TimelineItem>
         <Hr classHr="my-4" />
         <TimelineItem title="Coffee Break" date="10:30 - 11:00">
@@ -248,31 +247,28 @@
             </svelte:fragment>
             <P>Speaker: Shih-Han Hung</P>
         </TimelineItem>
-        <TimelineItem title="Paper Presentation" date="12:00 - 12:15">
+        <TimelineItem title="Paper Presentation: Data-centric Approach of Macroscopic Physical System with NISQ Quantum Computers" date="12:00 - 12:15">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
-            <P>Data-centric Approach of Macroscopic Physical System with NISQ Quantum Computers</P>
-            <P>Junyong Lee, Jeihee Cho, Hyeonseong Jung, Euimin Lee, Sangmin Lee, Shiho Kim and Yunah Choi</P>
+            <P>Authors: Junyong Lee, Jeihee Cho, Hyeonseong Jung, Euimin Lee, Sangmin Lee, Shiho Kim and Yunah Choi</P>
         </TimelineItem>
-        <TimelineItem title="Invited Talk" date="12:15 - 12:30">
+        <TimelineItem title="Invited Talk: The Effect of Gate Selection in Overparameterized Quantum Circuits" date="12:15 - 12:30">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
-            <P>The Effect of Gate Selection in Overparameterized Quantum Circuits</P>
             <P>Jeihee Cho, Junyong Lee, Daniel Justice and Shiho Kim</P>
         </TimelineItem>
-        <TimelineItem title="Invited Talk" date="12:30 - 12:45">
+        <TimelineItem title="Invited Talk: Native Gate-Aware QAOA Ansatz" date="12:30 - 12:45">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
                 </span>
             </svelte:fragment>
-            <P>Native Gate-Aware QAOA Ansatz</P>
             <P>Hyungseok Kim, Enhyeok Jang, Youngmin Kim and Won Woo Ro</P>
         </TimelineItem>
 
