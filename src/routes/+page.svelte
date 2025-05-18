@@ -239,7 +239,7 @@
             </svelte:fragment>
             <P></P>
         </TimelineItem>
-        <TimelineItem title="Keynote 2" date="11:20 - 12:00">
+        <TimelineItem title="Keynote: Quantum Computational Advantage: Verification and Classical Simulation" date="11:20 - 12:00">
             <svelte:fragment slot="icon">
                 <span class="flex absolute -start-3 justify-center items-center w-6 h-6 bg-slate-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-slate-900">
                     <ClockSolid class="w-4 h-4 text-gray-900 dark:text-gray-200" />
